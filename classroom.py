@@ -4,6 +4,7 @@ app = Flask('__name__')
 
 
 # these are the view for the website
+# each route is a view or webpage for the display
 @app.route('/')
 def index():
     return render_template('index.html')
